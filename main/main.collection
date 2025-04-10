@@ -1,0 +1,22 @@
+name: "main"
+instances {
+  id: "player"
+  prototype: "/main/player/player.go"
+}
+instances {
+  id: "realm_light"
+  prototype: "/main/world/realm_light.go"
+}
+instances {
+  id: "realm_dark"
+  prototype: "/main/world/realm_dark.go"
+}
+scale_along_z: 0
+embedded_instances {
+  id: "manager"
+  data: "components {\n"
+  "  id: \"realm_switcher\"\n"
+  "  component: \"/scripts/realm_switcher.script\"\n"
+  "}\n"
+  ""
+}

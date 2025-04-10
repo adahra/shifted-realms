@@ -1,0 +1,14 @@
+go.property("light_realm", msg.url("/realm_light"))
+go.property("dart_realm", msg.url("/realm_dark"))
+
+function init(self)
+	self.is_light = true
+end
+
+function on_input(self, action_id, action)
+	if action_id = hash("switch") and action.pressed then
+		self.is_light = not self.is_light
+		msg.post(self.light_realm, "enable", {enable = self.is_light})
+		msg.post(self.dark_realm, "enable", {enable = not self.is_light})
+	end
+end
