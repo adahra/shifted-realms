@@ -1,3 +1,3 @@
 # Shifted Realms
 
-[logo] https://github.com/adahra/shifted-realms/blob/main/assets/images/shifted_realms_mock.png
+[logo] https://github.com/adahra/shifted-realms/raw/assets/images/shifted_realms_mock.png
