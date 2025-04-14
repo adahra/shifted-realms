@@ -1,39 +1,48 @@
 # 🌗 Shifted Realms
 
-**Shifted Realms** adalah game puzzle-petualangan 2D bergaya pixel art yang dikembangkan dengan **Defold Engine**. Pemain menjelajahi dua dunia paralel—**Realm Terang** dan **Realm Gelap**—yang saling terhubung namun memiliki hukum dan rintangan berbeda. Pemain harus berpindah antar realitas untuk memecahkan teka-teki, membuka jalan tersembunyi, dan menyelamatkan dunia dari kehancuran.
+**Shifted Realms** adalah game puzzle platformer top-down berbasis HTML5 yang mengeksplorasi **keseimbangan antara dua dunia paralel** — Realm Terang dan Realm Gelap.
 
-![Defold](https://img.shields.io/badge/Engine-Defold-blue)
-![GameJam](https://img.shields.io/badge/Gamedev.js%20Jam-2025-purple)
-![License](https://img.shields.io/github/license/adahra/shifted-realms)
+Pemain harus berpindah antar dunia untuk memecahkan puzzle, mengaktifkan tombol, membuka gerbang, dan mencari jalan keluar. Setiap tindakan memengaruhi kedua dunia, dan hanya dengan menjaga **keseimbangan** dalam pengambilan keputusan, pemain dapat menyelesaikan tantangan yang ada.
+
+---
+
+## 🎯 Tema Jam: BALANCE
+
+Game ini terinspirasi oleh tema **Balance** dari Gamedev.js Jam 2025 dan menginterpretasikannya dalam berbagai bentuk:
+
+- ⚖️ **Fisik & Puzzle:** Puzzle yang mengharuskan pergerakan di dua realm yang saling terhubung namun berbeda struktur.
+- 🧠 **Mental & Strategi:** Mengatur waktu dan urutan *realm switch* agar tidak terjebak atau kehilangan peluang.
+- 🌱 **Ekologis & Moral:** Setiap tindakan di satu realm berdampak pada kondisi dunia lain.
+- 🌀 **Estetika Simetris:** Level yang dirancang simetris secara visual namun penuh perbedaan fungsional.
 
 ---
 
 ## 🎮 Fitur Utama
 
-- 🔁 **Switching Dunia Real-time**  
-  Pindah antara dua realitas dengan efek visual magis dan partikel dinamis.
-
-- 🧩 **Puzzle Berbasis Dimensi**  
-  Gerbang, tombol, dan objek hanya aktif di dunia tertentu.
-
-- 🗺️ **Level Multi-layer dengan Tilemap Dinamis**  
-  Dua layer tilemap aktif bergantian sesuai realm.
-
-- ✨ **Efek Visual Sinematik**  
-  Transisi realm dengan shader lingkaran meluas, ledakan partikel energi, dan kabut menyelimuti.
-
-- 🎨 **Pixel Art Handmade**  
-  Seluruh aset dirancang khusus dalam resolusi 16x16.
+- 🔄 **Realm Switching:** Pindah dunia kapan pun untuk menjelajahi alternatif solusi.
+- 🧩 **Puzzle Paralel:** Dunia terang dan gelap saling melengkapi dan memblokir.
+- 🎭 **Konsekuensi Pilihan:** Apa yang kamu lakukan di satu realm bisa membuka atau menutup akses di yang lain.
+- ✨ **Visual & Efek Transisi:** Efek partikel, kabut, dan gelombang visual saat pergantian realm.
+- 🕹️ **Kontrol Sederhana, Puzzle Kompleks:** Mudah dimainkan, sulit dikuasai.
 
 ---
 
 ## 🛠️ Teknologi
 
 - [Defold Engine](https://defold.com/)
-- Lua scripting
-- Shader custom (GLSL)
-- ParticleFX Defold
-- Tilemap & sprite animasi
+- HTML5 / Web Build
+- Pixel Art buatan sendiri
+- Game ringan dan ramah browser
 
-# Mock
-![1](https://github.com/adahra/shifted-realms/blob/main/assets/images/shifted_realms_mock.png)
+---
+
+## 📷 Screenshots
+
+_(Tambahkan screenshot di sini jika sudah tersedia)_
+
+---
+
+## 📦 Instalasi & Jalankan
+
+```bash
+git clone https://github.com/username/shifted-realms.git
