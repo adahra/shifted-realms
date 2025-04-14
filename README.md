@@ -45,4 +45,4 @@ Game ini terinspirasi oleh tema **Balance** dari Gamedev.js Jam 2025 dan mengint
 ## 📦 Instalasi & Jalankan
 
 ```bash
-git clone https://github.com/username/shifted-realms.git
+git clone https://github.com/adahra/shifted-realms.git
