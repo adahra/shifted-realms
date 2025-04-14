@@ -38,7 +38,7 @@ Game ini terinspirasi oleh tema **Balance** dari Gamedev.js Jam 2025 dan mengint
 
 ## 📷 Screenshots
 
-![1](https://github.com/adahra/shifted-realms/tree/main/assets/images/shifted_realms_mock.png)
+![1](https://github.com/adahra/shifted-realms/blob/main/assets/images/shifted_realms_mock.png)
 
 ---
 
